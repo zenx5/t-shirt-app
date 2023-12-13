@@ -1,10 +1,11 @@
-// import { Navigate } from "react-router-dom";
+import Home from "./home/Index"
+
 
 
 const routes:Array<any> = [
     {
         path: '/',
-        element: <p>Hola mundo</p>
+        element: <Home />
     }
 ]
 
